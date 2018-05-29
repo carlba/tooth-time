@@ -1,8 +1,8 @@
 import scrapy
 
 
-class BlogSpider(scrapy.Spider):
-    name = 'blogspider'
+class FolktandvardenSpider(scrapy.Spider):
+    name = 'folktandvarden'
     start_urls = ['https://www.folktandvardenstockholm.se/#last-min']
 
     def parse(self, response):
